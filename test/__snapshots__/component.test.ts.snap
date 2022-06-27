@@ -1,3 +1,5 @@
 // Vitest Snapshot v1
 
 exports[`Counter.vue > should render 1`] = `"<div>10 <button class=\\"inc\\"> + </button><button class=\\"dec\\"> - </button></div>"`;
+
+exports[`NftTest.vue > should render 1`] = `"<div class=\\"flex-col nft-buttons\\" inline-flex=\\"\\" space-y-4=\\"\\" m=\\"y-3\\"><button btn=\\"\\" p-2=\\"\\" rounded-full=\\"\\"> wv2g://CloseWebView </button><button btn=\\"\\" p-2=\\"\\" rounded-full=\\"\\"> Unity.call('CloseWebView') </button></div>"`;

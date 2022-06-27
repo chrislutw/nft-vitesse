@@ -1,6 +1,7 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import Counter from '../src/components/Counter.vue'
+import NftTest from '../src/components/NftTest.vue'
 
 describe('Counter.vue', () => {
   it('should render', () => {
@@ -18,5 +19,23 @@ describe('Counter.vue', () => {
     await wrapper.get('button').trigger('click')
 
     expect(wrapper.text()).toContain('1')
+  })
+})
+
+describe('NftTest.vue', () => {
+  it('should render', () => {
+    const wrapper = mount(NftTest)
+    expect(wrapper.find('.nft-buttons').exists()).toBe(true)
+
+    expect(wrapper.findAll('button')).toHaveLength(2)
+
+    expect(wrapper.html()).toMatchSnapshot()
+  })
+
+  it('should can be click', () => {
+    const wrapper = mount(NftTest)
+    expect(wrapper.find('.nft-buttons').exists()).toBe(true)
+
+    wrapper.get('button').trigger('click')
   })
 })

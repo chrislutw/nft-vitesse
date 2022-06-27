@@ -17,7 +17,7 @@ specifiers:
   '@vueuse/head': ^0.7.5
   critters: ^0.0.16
   cross-env: ^7.0.3
-  cypress: ^9.5.1
+  cypress: 9.4.1
   eslint: ^8.10.0
   eslint-plugin-cypress: ^2.12.1
   https-localhost: ^4.7.1
@@ -72,7 +72,7 @@ devDependencies:
   '@vue/test-utils': 2.0.0-rc.18_vue@3.2.31
   critters: 0.0.16
   cross-env: 7.0.3
-  cypress: 9.5.1
+  cypress: 9.4.1
   eslint: 8.10.0
   eslint-plugin-cypress: 2.12.1_eslint@8.10.0
   https-localhost: 4.7.1
@@ -1458,8 +1458,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.2.0-beta.31
-      '@intlify/shared': 9.2.0-beta.31
+      '@intlify/message-compiler': 9.2.0-beta.32
+      '@intlify/shared': 9.2.0-beta.32
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.1.9_vue@3.2.31
@@ -1494,11 +1494,11 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /@intlify/message-compiler/9.2.0-beta.31:
-    resolution: {integrity: sha512-5ZZBAW8I8046LG/X0jqL8C8HTmuoCgjrv1ANnlQgVc+gzP3qVWQVjHOwHeS3FO5ahCZ5cOByFvDS7f6PGbZrow==}
+  /@intlify/message-compiler/9.2.0-beta.32:
+    resolution: {integrity: sha512-7OOHIhOmOM4nqe3KfEuE65xLwawwBGg/pCFByzayf0jARoHkeaA7v/eKsUJVJMEakeF2pNstx06AvfecijgPzg==}
     engines: {node: '>= 12'}
     dependencies:
-      '@intlify/shared': 9.2.0-beta.31
+      '@intlify/shared': 9.2.0-beta.32
       source-map: 0.6.1
     dev: true
 
@@ -1521,8 +1521,8 @@ packages:
     engines: {node: '>= 10'}
     dev: false
 
-  /@intlify/shared/9.2.0-beta.31:
-    resolution: {integrity: sha512-grc/wPNA7vGTduXWRDTED+yte/kbTVRpH/WRgLKNaakIHPyAU4oemFSOeUHoTlufU0Rv3SP1b4v8B0NVmzERGw==}
+  /@intlify/shared/9.2.0-beta.32:
+    resolution: {integrity: sha512-lVaHnKFNg16eWlfDLzDFLapurrf0WK7xLWEkz8DMYNIXJshRQOZCkH7sQaqtONPoOT0LqjyPo1+sV0Wq85/HRQ==}
     engines: {node: '>= 12'}
     dev: true
 
@@ -1540,7 +1540,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 2.2.0_vue-i18n@9.1.9
-      '@intlify/shared': 9.2.0-beta.31
+      '@intlify/shared': 9.2.0-beta.32
       '@rollup/pluginutils': 4.1.2
       debug: 4.3.3
       fast-glob: 3.2.11
@@ -3048,8 +3048,8 @@ packages:
     resolution: {integrity: sha512-ZVxXaNy28/k3kJg0Fou5MiYpp88j7H9hLZp8PDC3jV0WFjfH5E9xHb56L0W59cPbKbcHXeP4qyT8PrHp8t6LcQ==}
     dev: false
 
-  /cypress/9.5.1:
-    resolution: {integrity: sha512-H7lUWB3Svr44gz1rNnj941xmdsCljXoJa2cDneAltjI9leKLMQLm30x6jLlpQ730tiVtIbW5HdUmBzPzwzfUQg==}
+  /cypress/9.4.1:
+    resolution: {integrity: sha512-+JgMG9uT+QFx97JU9kOHE3jO3+0UdkQ9H1oCBiC7A74qme7Jkdy2sYDBCPjjGczutnWnGUTMRlwiNMP/Uq6LrQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true

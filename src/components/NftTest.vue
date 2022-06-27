@@ -19,7 +19,7 @@ const closeUsingUnity = function() {
 </script>
 
 <template>
-  <div class="flex-col" inline-flex space-y-4 m="y-3">
+  <div class="flex-col nft-buttons" inline-flex space-y-4 m="y-3">
     <button btn p-2 rounded-full @click="closeUsingUrl()">
       wv2g://CloseWebView
     </button>
