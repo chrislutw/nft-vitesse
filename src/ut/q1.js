@@ -6,7 +6,7 @@ export class Holiday {
     const CHRISTMAS_DAY = 24
     const CHRISTMAS_DAY2 = 25
 
-    console.log(`today month and date: ${getMonth(today)} ${getDate(today)}`)
+    console.log(`today month and date: ${getMonth(today) + 1} ${getDate(today)}`)
     const isChristmas = (CHRISTMAS_DAY === getDate(today) || CHRISTMAS_DAY2 === getDate(today)) && CHRISTMAS_MONTH === getMonth(today) + 1
 
     if (isChristmas)
